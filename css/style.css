@@ -28,7 +28,6 @@ button{
   border-radius: 10px;
   border: none;
   cursor: pointer;
-  transition: box-shadow 0.4s ease-in-out;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -36,7 +35,7 @@ button{
 
 
 button:hover {
-  box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.5);
 }
 
 
@@ -247,6 +246,18 @@ button:hover {
   z-index: -1;
 }
 
+.all--wrap .wrap{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.all--wrap .wrap .products{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
 .all--wrap .wrap .products .wrap--img{
   width: 192px;
   height: 192px;
@@ -256,4 +267,44 @@ button:hover {
   display: flex;
   align-items: center;
   justify-content: center;
+  position: relative;
+}
+
+.all--wrap .wrap .products .wrap--img .cost{
+  position: absolute;
+  left: 10px;
+  bottom: 12px;
+  width: 64px;
+  height: 20px;
+  color: #ffffff;
+  background-color: #10BB87;
+  border-radius: 14px;
+  border: none;
+  font-weight: 400;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.all--wrap .wrap .products .chexol--btn{
+  background-color: #10BB87; 
+  color:#FFFFFF;
+}
+
+.all--wrap .btn{
+  width: 40px;
+  height: 40px;
+  border: none;
+  border-radius: 10px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 7px 0 #00000026;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.all--wrap .btn:hover{
+  box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.5);
 }
