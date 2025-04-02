@@ -371,6 +371,20 @@ button:hover {
   gap: 28px;
 }
 
+.wrapper__category .wrap--categories .part--1{
+  display: flex;
+  align-items: center;
+  gap: 96px;
+}
+
+.wrapper__category .wrap--categories .part--1 .container__category{
+  width: 96px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+
 .wrapper__category .wrap--categories .part--1 .container__category .wrap--img{
   width: 92px;
   height: 92px;
