@@ -358,11 +358,11 @@ button:hover {
 
 .wrapper__category{
   width: 960px;
-  border: 2px solid red;
-  margin: 0 auto;
+    margin: 0 auto;
   display: flex;
   flex-direction: column;
   gap: 64px;
+  position: relative;
 }
 
 .wrapper__category .header{
@@ -386,6 +386,33 @@ button:hover {
 }
 
 .wrapper__category .wrap--categories .part--1 .container__category .wrap--img{
+  width: 92px;
+  height: 92px;
+  background-color: #F2F2F2;
+  border-radius: 21px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.wrapper__category .wrap--categories .part--2{
+  position: absolute;
+  right: 0;
+  display: flex;
+  align-items: center;
+  gap: 96px;
+  margin-top: 50px;
+}
+
+.wrapper__category .wrap--categories .part--2 .container__category{
+  width: 96px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+
+.wrapper__category .wrap--categories .part--2 .container__category .wrap--img{
   width: 92px;
   height: 92px;
   background-color: #F2F2F2;
