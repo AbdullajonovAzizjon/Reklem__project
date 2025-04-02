@@ -264,9 +264,6 @@ button:hover {
     top: 74px;
 }
 
-
-/* 2 video asosida */
-
 .populars{
     margin: 100px 0;
     position: relative;
@@ -285,7 +282,6 @@ button:hover {
     line-height: 44px;
 }
 
-/* eng asosiy sub line */
 .populars .tag__chiziq{
     display: inline;
     position: relative;
@@ -303,15 +299,11 @@ button:hover {
     z-index: -1;
 }
 
-
-/* /eng asosiy sub line */
-
 .populars .item__card,
 .services .item__card{
     max-width: 192px;
     min-width: 180px;
     width: 100%;
-    /* border: 1px solid red; */
     display: flex;
     flex-direction: column;
     align-items: start;
@@ -319,11 +311,8 @@ button:hover {
     gap: 20px;
 }
 
-.populars .items,
-.services .items
-{
+.populars .items,.services .items{
     display: flex;
-    /* justify-content: start; */
     align-items: center;
     gap: 64px;
     margin-top: 70px;
@@ -373,11 +362,7 @@ button:hover {
     color: rgba(179, 179, 179, 1);
 }
 
-
-
-
-.services h2,
-.category h2{
+.services h2, .category h2{
     display: flex;
     align-items: center;
     gap: 28px;
@@ -393,13 +378,9 @@ button:hover {
     margin-top: 100px;
 }
 
-
-/* 3 */
-
 .category{
     margin: 150px 0 130px 0;
 }
-
 
 .category .category__item{
     max-width: 100px;
@@ -410,7 +391,6 @@ button:hover {
     align-items: center;
     gap: 20px;
 }
-
 
 .category .category__item .icon__wrapper{
     width: 100%;
@@ -442,13 +422,11 @@ button:hover {
 .category .category__item h3:hover{
     cursor: pointer;
     font-weight: 700;
-
-
 }
+
 .contact{
     margin-bottom: 140px;
 }
-
 
 .contact .back__call{
     background-color: rgba(16, 187, 135, 1);
@@ -456,7 +434,6 @@ button:hover {
     display: flex;
     padding: 40px 124px 50px 96px;
 }
-
 
 .contact .back__call .back__call__item{
     width: 50%;
@@ -479,9 +456,6 @@ button:hover {
 
 
 .contact .back__call .back__call__item form{
-    /* display: flex;
-    align-items: center; */
-    /* gap: 12px; */
         width: 100%;
     display: flex;
     flex-direction: column;
@@ -500,8 +474,6 @@ gap: 10px;
     font-weight: 500;
 }
 
-
-
 .contact .back__call .back__call__item form .form__item input{
     width: 100%;
     padding: 12px 15px;
@@ -514,30 +486,20 @@ gap: 10px;
 .back__call__item{
     display: flex;
     flex-direction: column;
-    /* border: 1px solid red; */
 }
 
 .contact .back__call .back__call__item form .form__item .form__item__vrapper{
     display: flex;
     gap: 28px;
-    
 }
 
-.back__call__item{
-
-}
-
-
-
-
-/* eng asosiy sub line */
 .contact .back__call__item .tag__chiziq{
     display: inline;
     position: relative;
     width: 400px;
     z-index: 2;
-
 }
+
 .contact .back__call__item .tag__chiziq .sub__line{
     position: absolute;
     top: 35px;
@@ -549,18 +511,11 @@ gap: 10px;
     z-index: -1;
 }
 
-
-/* /eng asosiy sub line */
-
-
-
 .contact{
     position: relative;
 }
 
-
 /* footer */
-
 
 footer{
     background-color: rgba(242, 242, 242, 1);
@@ -569,12 +524,14 @@ footer{
 footer .top__foooter{
     padding: 50px 0;
 }
+
 footer .top__foooter .inside__top{
     height: 1/2px;
     display: flex;
     justify-content: space-between;
     align-items: start;
 }
+
 footer .top__foooter .inside__top .box{
     height: 100%;
     display: flex;
@@ -587,9 +544,11 @@ footer .top__foooter .inside__top .box .linner__box{
     align-items: start;
     justify-content: space-between;
 }
+
 footer .top__foooter .inside__top .box .line{
     margin: 19px;
 }
+
 footer .top__foooter .inside__top ul{
     list-style-type: none;
     display: flex;
@@ -604,7 +563,6 @@ footer .top__foooter .inside__top ul li a{
     font-weight: 600;
 }
 
-
 footer .line_vrap{
     display: flex;
     margin-left: 210px;
@@ -612,11 +570,13 @@ footer .line_vrap{
     align-items: center;
 
 }
+
 .line__foot{
     width: 100%;
     height: 2px;
     background-color: rgba(229, 229, 229, 1);
 }
+
 .inside__bottom{
     display: flex;
     flex-direction: column;
@@ -645,7 +605,6 @@ footer .line_vrap{
     gap: 28px;
 }
 
-
 .foot__se{
     color: rebeccapurple;
 }
@@ -657,12 +616,10 @@ footer .line_vrap{
     color: rgba(179, 179, 179, 1);
 }
 
-
 .red2{
     font-weight: normal;
     font-size: 14px;
 }
-
 
 .gren{
     color: #487B6C;
