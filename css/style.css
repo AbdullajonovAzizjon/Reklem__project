@@ -327,6 +327,7 @@ button:hover {
   display: flex;
   flex-direction: column;
   gap: 68px;
+  margin-bottom: 150px;
 }
 
 .wrapper__services .header{
@@ -353,4 +354,29 @@ button:hover {
   display: flex;
   align-items: center;
   gap: 10px;
+}
+
+.wrapper__category{
+  width: 960px;
+  border: 2px solid red;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 64px;
+}
+
+.wrapper__category .header{
+  display:flex;
+  align-items:center;
+  gap: 28px;
+}
+
+.wrapper__category .wrap--categories .part--1 .container__category .wrap--img{
+  width: 92px;
+  height: 92px;
+  background-color: #F2F2F2;
+  border-radius: 21px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
